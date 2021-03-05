@@ -27,14 +27,32 @@
   margin-bottom: 35px;
 }
 
-/* header */
-
-header {
-  height: 100px;
+.isDisabled {
+  pointer-events: none;
 }
 
-header h3 {
-  font-size: 20px;
+/* header */
+
+.nav-custom {
+  height: 100px;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-weight: 600;
+  font-size: 23px;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #1abc9c;
 }
 
 /* jumbotron */
@@ -75,12 +93,4 @@ header h3 {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* SMARTPHONE */
-
-@media screen and (max-width: 768px) {
-  footer .top-footer {
-    height: 300px;
-  }
 }
