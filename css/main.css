@@ -27,8 +27,17 @@
   margin-bottom: 35px;
 }
 
+.pb35 {
+  padding-bottom: 35px;
+}
+
 .isDisabled {
   pointer-events: none;
+}
+
+.centra {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* header */
@@ -59,6 +68,41 @@
 
 .jumbotron {
   height: 680px;
+}
+
+.jumbotron img {
+  width: 25%;
+  padding-top: 50px;
+}
+
+.jumbotron h2 {
+  font-size: 350%;
+  font-weight: 600;
+}
+
+.stella {
+  height: 50px;
+  width: 700px;
+}
+
+.riga {
+  display: inline-block;
+  width: 110px;
+  height: 20px;
+  border-top: 4px solid #fff;
+  margin-top: 20px;
+}
+
+.icona-stella {
+  font-size: 30px;
+  margin: 0 20px;
+  position: relative;
+  bottom: 4px;
+}
+
+.ruoli p {
+  font-size: 26px;
+  margin-top: 20px;
 }
 
 /* about */
