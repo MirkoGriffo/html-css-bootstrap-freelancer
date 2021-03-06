@@ -30,6 +30,10 @@
   */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .box {
+    background-position-x: -40px;
+  }
+
   .nav-custom {
     padding: 25px;
   }
@@ -39,6 +43,21 @@
     width: 320px;
     font-size: 20px;
     padding-right: 30px;
+  }
+
+  .cerchio-bianco {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 7px;
+    color: #fff;
+  }
+
+  .top-footer {
+    height: 200px;
   }
 }
 
@@ -65,6 +84,10 @@
   */
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .box {
+    background-position-x: -45px;
+  }
+
   .nav-custom {
     padding: 20px;
   }
@@ -94,7 +117,11 @@
     padding-right: 20px;
   }
 
-  footer .top-footer {
-    height: 300px;
+  .top-footer {
+    height: 400px;
+  }
+
+  .top-footer .box {
+    margin-bottom: 35px;
   }
 }

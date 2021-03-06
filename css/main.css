@@ -24,6 +24,10 @@ h2 {
   color: white;
 }
 
+.verde {
+  color: #1abc9c;
+}
+
 .sfondo-verde {
   background-color: #1abc9c;
 }
@@ -126,6 +130,11 @@ h2 {
   border-top: 4px solid black;
   margin-top: 20px;
 }
+
+.portfolio .box:hover {
+  opacity: 0.6;
+}
+
 .casa {
   background-image: url("../img/cabin.png");
 }
@@ -204,6 +213,22 @@ h2 {
 
 /* footer */
 
+.cerchio-bianco {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 11px;
+  color: #fff;
+}
+
+.cerchio-bianco:hover {
+  background-color: #fff;
+  color: #3a546d;
+}
+
 .top-footer {
   background-color: #3a546d;
   height: 150px;
@@ -211,6 +236,11 @@ h2 {
 
 .top-footer .box {
   height: 80px;
+  width: 90%;
+}
+
+.giallo a:hover {
+  color: yellow;
 }
 
 .bottom-footer {
