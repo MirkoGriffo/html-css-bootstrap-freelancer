@@ -1,3 +1,9 @@
+/* general */
+
+h2 {
+  font-weight: 600;
+}
+
 /* utilities */
 
 .testo-centrato {
@@ -7,8 +13,11 @@
 .box {
   width: 100%;
   height: 300px;
-  background-color: red;
   margin-top: 20px;
+  background-size: 420px;
+  background-repeat: no-repeat;
+  background-position-x: -30px;
+  border-radius: 8px;
 }
 
 .bianco {
@@ -27,8 +36,8 @@
   margin-bottom: 35px;
 }
 
-.pb35 {
-  padding-bottom: 35px;
+.pt35 {
+  padding-top: 35px;
 }
 
 .isDisabled {
@@ -77,7 +86,6 @@
 
 .jumbotron h2 {
   font-size: 350%;
-  font-weight: 600;
 }
 
 .stella {
@@ -105,16 +113,93 @@
   margin-top: 20px;
 }
 
+/* portfolio */
+
+.portfolio .stella {
+  padding-bottom: 120px;
+}
+
+.riga-nera {
+  display: inline-block;
+  width: 110px;
+  height: 20px;
+  border-top: 4px solid black;
+  margin-top: 20px;
+}
+.casa {
+  background-image: url("../img/cabin.png");
+}
+
+.torta {
+  background-image: url("../img/cake.png");
+}
+
+.circo {
+  background-image: url("../img/circus.png");
+}
+
+.game {
+  background-image: url("../img/game.png");
+}
+
+.safe {
+  background-image: url("../img/safe.png");
+}
+
+.sottomarino {
+  background-image: url("../img/submarine.png");
+}
+
 /* about */
 
 .about {
-  height: 800px;
+  height: 600px;
+}
+
+.testo {
+  height: 200px;
+  width: 500px;
+  margin-top: 70px;
+  margin-right: 42px;
+  margin-left: 42px;
+  font-size: 21px;
+  text-align: left;
+}
+
+.btn-download {
+  background-color: #1abc9c;
+  padding: 10px 25px;
+  border-color: white;
+  font-size: 30px;
+  margin-top: 70px;
 }
 
 /* contatti */
 
 .contatti {
   height: 700px;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid #e2e2e2;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn-send {
+  float: left;
+  padding: 10px 15px;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.form-control::placeholder {
+  color: black;
 }
 
 /* footer */
