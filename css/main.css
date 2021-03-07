@@ -1,5 +1,10 @@
 /* general */
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 h2 {
   font-weight: 600;
 }
